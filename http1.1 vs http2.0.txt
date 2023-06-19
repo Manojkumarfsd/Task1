@@ -1,0 +1,32 @@
+What is the different between Http1.1 vs Http2
+
+HTTP: Hypertext Transfer Protocol
+HTTP Methods helps to collect the information
+CRUD- Create Read Update Delete
+
+Time duration:
+HTTP1.1 takes 9.14 seconds to load the image but HTTP2 takes only 2 seconds for loading the image
+
+http 1.1
+1. The standard protocol more than 15 years of extensions
+2. Separate connection was established each request and response
+3. Slow loading resource being delivered
+4. To optimised page load time developer has to compress their resource ex: CSS and JS
+5. Many of the limitations of its predecessor
+6. HTTP1.0 relied on textual representation which required parsing and interpretation at both ends.
+7. Its headers sent with each request and response
+
+HTTP 2.0
+1. One of the most improvements in http 2.0 is multiplexing.
+2. Which is used separate connection in each resource
+3. Multiple request and response in same time
+4. Significantly reduced latency and over all improve performance 
+5. It uses a binary protocol enabling more efficient processing by servers and clients.
+6. Utilize header compression using HPACK algorithm it reduce the overhead of the headers
+
+HTTP Return Codes:
+100-199 = information response
+200-299 = success
+300-399 = Redirection
+400-499 = Client side error
+500-599 = Server error
