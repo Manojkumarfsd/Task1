@@ -1,0 +1,18 @@
+Objects and internal representation
+objects are data structures it helps to store the data. We can store with key and values also called as property name and values
+represent abstract concept
+example:
+let person = {
+    name : "Manojkumar",
+    age : 25,
+    gender: "Male",
+};
+person is a object. 
+key or property is (name,age,gender) and value ("Manojkumar",25,"Male")
+value can strings,number,boolean,array other object or even functions
+objects in java script provide a way to organize and manipulate data.
+in java script objects are representing collection of properties each property contains key and value
+Objects in javascript are mutable which means we can add, update or remove properties dynamically
+
+
+
